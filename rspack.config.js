@@ -10,7 +10,7 @@ module.exports = {
   },
   devServer: {
     hot: true,
-    allowedHosts: [".preview.csb.app"],
+    allowedHosts: ["ihvqmi-8080.csb.app"],
   },
   module: {
     rules: [{ test: /.less$/, use: [{ loader: "less-loader" }], type: "css" }],
